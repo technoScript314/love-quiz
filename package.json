@@ -2,7 +2,7 @@
   "name": "love-quiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://technoscript314.github.io/love_quiz"
+  "homepage": "https://technoscript314.github.io/love_quiz",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
