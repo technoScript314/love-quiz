@@ -3,9 +3,12 @@ import React from "react";
 const Homepage = ({ startQuiz }) => {
   return (
     <div className="homepage">
-      <h1>Welcome to Our Love Quiz</h1>
-      <p>Let's see how well you know us!</p>
-      <button onClick={startQuiz}>Start Quiz</button>
+      <h1>Feliz cumpleaños bb, bienvenida a la encuesta del amor</h1>
+      <strong>
+        <p>A ver si sabes qué onda, si repruebas no hay regalo</p>
+      </strong>
+      <img src="/images/1.jpg" alt="Us on a date" className="quiz-image" />
+      <button onClick={startQuiz}>Empezar!!</button>
     </div>
   );
 };
