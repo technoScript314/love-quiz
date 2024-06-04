@@ -3,7 +3,7 @@ import React from "react";
 const Homepage = ({ startQuiz }) => {
   return (
     <div className="homepage">
-      <h1>Feliz cumpleaños bb, bienvenida a la encuesta del amor</h1>
+      <h1>Feliz cumpleaños bb</h1>
       <strong>
         <p>A ver si sabes qué onda, si repruebas no hay regalo</p>
       </strong>
