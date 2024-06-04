@@ -13,19 +13,19 @@ const questions = [
     question: "Dónde fue nuestra primera cita?",
     answers: ["La luna", "Galerías", "Starbucks", "Fundidora"],
     correct: 1,
-    image: "/images/3.jpg",
+    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
   },
   {
     question: "A dónde fuimos de vacaciones por primera vez?",
     answers: ["Acapulco", "Cancún", "Macondo", "Pekín"],
     correct: 1,
-    image: "/images/4.jpg",
+    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
   },
   {
     question: "Cuál fue nuestro primer concierto juntos?",
     answers: ["Porter Robinson", "Boris Brejcha", "Intocable", "Pal Norte"],
     correct: 2,
-    image: "/images/5.jpg",
+    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
   },
   {
     question: "Cuál es mi banda favorita?",
@@ -36,14 +36,14 @@ const questions = [
       "Los Cadetes de Linares",
     ],
     correct: 0,
-    image: "/images/6.jpg",
+    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
   },
   {
     question:
       "Cuántas veces nos quedamos juntos en un AirBnB? Si no sabes no me quieres",
     answers: ["20", "19", "21", "18"],
     correct: 0,
-    image: "/images/7.jpg",
+    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
   },
 ];
 
@@ -55,7 +55,7 @@ function App() {
     // Preload images
     questions.forEach((question) => {
       const img = new Image();
-      img.src = `${process.env.PUBLIC_URL}${question.image}`;
+      img.src = question.image;
     });
 
     const preloadImages = [
