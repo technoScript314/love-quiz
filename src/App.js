@@ -13,19 +13,19 @@ const questions = [
     question: "Dónde fue nuestra primera cita?",
     answers: ["La luna", "Galerías", "Starbucks", "Fundidora"],
     correct: 1,
-    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/3.jpg`,
   },
   {
     question: "A dónde fuimos de vacaciones por primera vez?",
     answers: ["Acapulco", "Cancún", "Macondo", "Pekín"],
     correct: 1,
-    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/4.jpg`,
   },
   {
     question: "Cuál fue nuestro primer concierto juntos?",
     answers: ["Porter Robinson", "Boris Brejcha", "Intocable", "Pal Norte"],
     correct: 2,
-    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/5.jpg`,
   },
   {
     question: "Cuál es mi banda favorita?",
@@ -36,7 +36,7 @@ const questions = [
       "Los Cadetes de Linares",
     ],
     correct: 0,
-    image: `${process.env.PUBLIC_URL}/images/7.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/6.jpg`,
   },
   {
     question:
