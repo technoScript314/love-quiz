@@ -7,7 +7,11 @@ const Homepage = ({ startQuiz }) => {
       <strong>
         <p>A ver si sabes qué onda, si repruebas no hay regalo</p>
       </strong>
-      <img src="/images/1.jpg" alt="Us on a date" className="quiz-image" />
+      <img
+        src={`${process.env.PUBLIC_URL}/images/1.jpg`}
+        alt="Us on a date"
+        className="quiz-image"
+      />
       <button onClick={startQuiz}>Empezar!!</button>
     </div>
   );

@@ -59,8 +59,8 @@ function App() {
     });
 
     const preloadImages = [
-      "/images/1.jpg",
-      "/images/2.jpg",
+      `${process.env.PUBLIC_URL}/images/1.jpg`,
+      `${process.env.PUBLIC_URL}/images/2.jpg`,
       ...questions.map(
         (question) => `${process.env.PUBLIC_URL}${question.image}`
       ),

@@ -26,7 +26,7 @@ const Result = ({ score, totalQuestions, restartQuiz }) => {
                 Tu calificación: {score}/{totalQuestions}
               </h2>
               <img
-                src="/images/2.jpg"
+                src={`${process.env.PUBLIC_URL}/images/2.jpg`}
                 alt="Celebration"
                 className="quiz-image"
               />
