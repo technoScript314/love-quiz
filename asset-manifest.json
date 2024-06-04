@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/love_quiz/static/css/main.4293e540.css",
+    "main.js": "/love_quiz/static/js/main.61ffb3e5.js",
+    "static/js/453.4ffa8b67.chunk.js": "/love_quiz/static/js/453.4ffa8b67.chunk.js",
+    "index.html": "/love_quiz/index.html",
+    "main.4293e540.css.map": "/love_quiz/static/css/main.4293e540.css.map",
+    "main.61ffb3e5.js.map": "/love_quiz/static/js/main.61ffb3e5.js.map",
+    "453.4ffa8b67.chunk.js.map": "/love_quiz/static/js/453.4ffa8b67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4293e540.css",
+    "static/js/main.61ffb3e5.js"
+  ]
+}
